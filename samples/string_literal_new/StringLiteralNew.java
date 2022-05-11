@@ -13,6 +13,8 @@ class StringLiteralNew {
             if(s3 == x){
                 System.out.println("s3 == x: true");
             }
+            // s1 + s2 を実行するとヒープにStringオブジェクトが作成される。
+            // 明示的に new しなくても、ヒープが利用される。
         }
         {
             // String を new するとヒープにオブジェクトが作成される。
